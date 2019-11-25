@@ -35,7 +35,7 @@ class IndexPage extends React.Component {
         </p>
         <p> All you have to do is sit back and drink the Atole!</p>
         <Link to="/blog/">
-          <Button marginTop="35px" color="red">
+          <Button marginTop="35px">
             Go to Blog
           </Button>
         </Link>
