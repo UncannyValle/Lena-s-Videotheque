@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import "../components/layout.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
+    const siteTitle = "Atole Media"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -15,19 +15,24 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
+        <img style={{ margin: 0 }} src="./final-logo.jpg" alt="Gatsby Scene" />
+        <h1 className="cool">
+          Take a warm sip of creativity{" "}
+
+            
         </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
         <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
+          Atole Media is a creative studio specializing in storytelling through
+          web comics, web games, animations and concept art.
         </p>
-        <p>Now go build something great!</p>
+        <p>
+          We provide a means to escape reality, to step away from the day to day 
+          and into the fantastical. The word Atole is the Mexican word of a 
+          traditional hot drink made of maize, and calls forth the Mexican art
+          of storytelling, of sitting around the table, nursing a cup of this
+          magical beverage. Only then is one ready to be part of story. 
+        </p>
+        <p> All you have to do is sit back and drink the Atole!</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
