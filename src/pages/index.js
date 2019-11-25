@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../components/layout.css"
+// import "../components/layout.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
         </p>
         <p> All you have to do is sit back and drink the Atole!</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="35px" color='red'>Go to Blog</Button>
         </Link>
       </Layout>
     )

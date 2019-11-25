@@ -13,23 +13,16 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
-        <h1 className="header"
+        <h1 
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            color: 'purple',
+            textAlign: 'center'
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
-          >
             {title}
-          </Link>
         </h1>
       )
     } else {
