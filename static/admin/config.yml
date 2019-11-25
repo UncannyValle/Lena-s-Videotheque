@@ -1,5 +1,5 @@
 backend:
-  name: uncannyvalle
+  name: github
   repo: uncannyvalle/atole-media
 
 media_folder: static/assets
