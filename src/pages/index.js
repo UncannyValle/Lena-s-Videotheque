@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+import logo from "../images/final-logo.jpg"
 
 class IndexPage extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class IndexPage extends React.Component {
         />
         <img
           style={{ margin: 0 }}
-          src= {"../images/final-logo.jpg"}
+          src= {logo}
           alt="atole media logo"
         />
         <h1 className="cool">Take a warm sip of creativity </h1>
