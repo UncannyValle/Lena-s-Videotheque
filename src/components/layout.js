@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-import { rhythm, scale } from "../utils/typography"
-
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -13,17 +11,46 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
-        <h1 
+        <div
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            color: 'purple',
-            textAlign: 'center'
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-evenly",
+            position: "fixed",
+            width: "100vw",
+            height: "15vh",
+            top: 0,
+            left: 0,
+            backgroundColor: "orange",
+            alignItems: "center",
           }}
         >
+          <h3
+            style={{
+              color: "white",
+              margin: 0,
+            }}
+          >
+            About
+          </h3>
+          <h1
+            style={{
+              fontSize: "4em",
+              color: "purple",
+              margin: 0,
+            }}
+          >
             {title}
-        </h1>
+          </h1>
+          <h3
+            style={{
+              color: "white",
+              margin: 0,
+            }}
+          >
+            Blog
+          </h3>
+        </div>
       )
     } else {
       header = (
@@ -52,8 +79,8 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            maxWidth: "60vw",
+            marginTop: "15vh",
           }}
         >
           <header>{header}</header>
@@ -67,7 +94,5 @@ class Layout extends React.Component {
 const Wrapper = styled.div`
   min-height: 100vh;
 `
-
-
 
 export default Layout

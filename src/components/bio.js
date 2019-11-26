@@ -9,21 +9,33 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
-
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author, social, artist } = data.site.siteMetadata
         return (
-          <Container>
+          <Container textDecoration="none">
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              Written by <strong>{author}</strong>
+              with art made by the talented <strong>{artist}</strong> <br />
+              <a
+                style={{ boxShadow: `none` }}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https://twitter.com/${social.twitter}`}
+              >
+                Hit us up on Twitter,
+              </a>
+              <br />
+              <a
+                style={{ boxShadow: `none` }}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https://instagram.com/${social.instagram}`}
+              >
+                or Instagram
               </a>
             </p>
           </Container>
@@ -45,6 +57,7 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
+        artist
         social {
           twitter
         }

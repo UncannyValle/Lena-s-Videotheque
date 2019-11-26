@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Atole Media`,
-    author: `Julian Valle`,
+    title: `Atole Media `,
+    author: `Julian Valle `,
+    artist: `Lena Zerlav `,
     description: `A multimedia site serving delicously artful content to warm the heart`,
     siteUrl: `https://atolemedia.com`,
     social: {
-      twitter: `uncannyvalle`,
+      twitter: `theuncannyvalle`,
+      instagram:`mymelonheart_`
     },
   },
   plugins: [
