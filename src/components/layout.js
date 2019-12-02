@@ -48,7 +48,7 @@ class Layout extends React.Component {
               margin: 0,
             }}
           >
-            Blog
+            Store
           </h3>
         </div>
       )

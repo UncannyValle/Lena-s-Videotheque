@@ -14,19 +14,21 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social, artist } = data.site.siteMetadata
+        const { author, social } = data.site.siteMetadata
         return (
           <Container textDecoration="none">
             <p>
-              Written by <strong>{author}</strong>
-              with art made by the talented <strong>{artist}</strong> <br />
+              This review and all of its art was created by
+              <strong> {author}</strong>,
+              an Aries who loves movies, drawing, and adelie penguins! <br />
               <a
                 style={{ boxShadow: `none` }}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={`https://twitter.com/${social.twitter}`}
               >
-                Hit us up on Twitter,
+                <br />
+                Give me a shout in my twitter,
               </a>
               <br />
               <a
@@ -35,7 +37,8 @@ function Bio() {
                 rel="noopener noreferrer"
                 href={`https://instagram.com/${social.instagram}`}
               >
-                or Instagram
+                <br />
+                or send me pictures of Penguins and Goats to my Instagram
               </a>
             </p>
           </Container>
@@ -57,9 +60,9 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
-        artist
         social {
           twitter
+          instagram
         }
       }
     }
@@ -68,6 +71,7 @@ const bioQuery = graphql`
 
 const Container = styled.div`
   display: flex;
+  font-size:1.5em;
 `
 
 export default Bio

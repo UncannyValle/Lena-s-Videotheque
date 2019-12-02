@@ -1,14 +1,13 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Atole Media `,
-    author: `Julian Valle `,
-    artist: `Lena Zerlav `,
-    description: `A multimedia site serving delicously artful content to warm the heart`,
+    title: `Lena's Movie Cosmos `,
+    author: `Lena Zerlav`,
+    description: `Movie reviews and insights for the artistic soul `,
     siteUrl: `https://atolemedia.com`,
     social: {
-      twitter: `theuncannyvalle`,
-      instagram:`mymelonheart_`
+      twitter: `LenaAlvz`,
+      instagram:`lenazerlav`,
     },
   },
   plugins: [
