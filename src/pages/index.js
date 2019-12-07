@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
         </h1>
         <p style={{ color: "purple" }}>
           Hi, I'm Lena Zerlav! I'm a multimedia artist, with a background in
-          film cinema studies. I've always had a passion for watching movies
+          film studies. I've always had a passion for watching movies
           that resonate with me in a deep emotional level so I've decided to
           share thses ideas in the form of a weekly blog. Every week I will be
           reviewing a movie or TV show, going through the technical, and
