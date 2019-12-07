@@ -65,7 +65,7 @@ const bioQuery = graphql`
           instagram
         }
       }
-    }
+    } 
   }
 `
 

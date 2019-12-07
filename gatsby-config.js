@@ -4,7 +4,7 @@ module.exports = {
     title: `Lena's Movie Cosmos `,
     author: `Lena Zerlav`,
     description: `Movie reviews and insights for the artistic soul `,
-    siteUrl: `https://atolemedia.com`,
+    siteUrl: `https://lenasvideotheque.com`,
     social: {
       twitter: `LenaAlvz`,
       instagram:`lenazerlav`,
