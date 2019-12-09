@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import logo from "../images/final-logo.jpg"
+import logo from "../images/camera-logo.mp4"
 import meta from "../../gatsby-config"
 // import "../styles/Righteous-Regular.ttf"
 class IndexPage extends React.Component {
