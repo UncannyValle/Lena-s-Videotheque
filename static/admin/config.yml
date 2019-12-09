@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: uncannyvalle/atole-media
+  repo: UncannyValle/Lena-s-Videotheque
 
 media_folder: static/assets
 public_folder: assets
