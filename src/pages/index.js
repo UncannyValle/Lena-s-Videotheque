@@ -22,7 +22,6 @@ class IndexPage extends React.Component {
           height:"auto",
           borderColor:"purple",
           borderStyle:"solid",
-        
         }} src={logo} alt="atole media logo" />
         <h1 style={{ color: "#f97976" }}>
           Every time we see a movie we experience a collective dream...

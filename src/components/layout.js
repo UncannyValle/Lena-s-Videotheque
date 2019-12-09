@@ -17,9 +17,10 @@ class Layout extends React.Component {
             flexDirection: "row",
             position: "fixed",
             width: "100vw",
-            height: "10vh",
+            height: "auto",
             top: 0,
             left: 0,
+            padding: ".5rem 0",
             backgroundColor: "orange",
             alignItems: "center",
           }}
