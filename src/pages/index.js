@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import logo from "../images/camera-logo.mp4"
+import logo from "../images/camera-logo.gif"
 import meta from "../../gatsby-config"
 // import "../styles/Righteous-Regular.ttf"
 class IndexPage extends React.Component {
@@ -16,7 +16,14 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src={logo} alt="atole media logo" />
+        <img style={{ 
+          margin: 0,
+          width: "100vw",
+          height:"auto",
+          borderColor:"purple",
+          borderStyle:"solid",
+        
+        }} src={logo} alt="atole media logo" />
         <h1 style={{ color: "#f97976" }}>
           Every time we see a movie we experience a collective dream...
         </h1>

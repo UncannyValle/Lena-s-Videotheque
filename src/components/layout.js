@@ -15,41 +15,27 @@ class Layout extends React.Component {
           style={{
             display: "flex",
             flexDirection: "row",
-            justifyContent: "space-evenly",
             position: "fixed",
             width: "100vw",
-            height: "15vh",
+            height: "10vh",
             top: 0,
             left: 0,
             backgroundColor: "orange",
             alignItems: "center",
           }}
         >
-          <h3
-            style={{
-              color: "white",
-              margin: 0,
-            }}
-          >
-            About
-          </h3>
+         
           <h1
             style={{
-              fontSize: "4em",
               color: "purple",
-              margin: 0,
+              margin: "0 auto",
+              textAlign: "center"
             }}
           >
             {title}
           </h1>
-          <h3
-            style={{
-              color: "white",
-              margin: 0,
-            }}
-          >
-            Store
-          </h3>
+          
+           
         </div>
       )
     } else {
@@ -79,7 +65,7 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: "60vw",
+            maxWidth: "95vw",
             marginTop: "15vh",
           }}
         >

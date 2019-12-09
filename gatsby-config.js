@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Lena's Movie Cosmos `,
+    title: `Lena's Videotheque `,
     author: `Lena Zerlav`,
     description: `Movie reviews and insights for the artistic soul `,
     siteUrl: `https://lenasvideotheque.com`,
